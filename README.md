@@ -9,23 +9,26 @@ Problem Statement
 In the skin biopsy, the dermatologist takes some part of the skin lesion and examines it under the microscope. The current process takes almost a week or more, starting from getting a dermatologist appointment to getting a biopsy report. The aims to shorten the current gap to just a couple of days by providing the predictive model. The approach uses Convolutional Neural Network (CNN) to classify nine types of skin cancer from outlier lesions images. This reduction of a gap has the opportunity to impact millions of people positively.
 
 
-
 Dataset
 
 The dataset consists of 2357 images of malignant and benign oncological diseases, which were formed from the International Skin Imaging Collaboration (ISIC). All images were sorted according to the classification taken with ISIC, and all subsets were divided into the same number of images.
 
+
 The data set contains the following diseases:
 
 datasetdf
+![Image 15-01-25 at 9 01 PM (1)](https://github.com/user-attachments/assets/917139d2-1766-4e8c-9e36-16ef7c3890ba)
+![Datasetdf](https://github.com/user-attachments/assets/d29c0992-dace-4dfd-a3c0-74cbc52e8543)
+
+
+
 
 datasetplot
+![DatasetPlot](https://github.com/user-attachments/assets/4db378bf-164c-44e8-b3cd-41a2f12d0019)
 
-
-Sample image from Dataset
-
-sample image
 
 CNN Architecture Design
+
 
 To classify skin cancer using skin lesions images. To achieve higher accuracy and results on the classification task, I have built custom CNN model.
 
@@ -40,7 +43,16 @@ Activation Function(Softmax) - The softmax function is used as the activation fu
 Model Architecture
 
 Model Arch
+![Image 15-01-25 at 9 01 PM (2)](https://github.com/user-attachments/assets/1e066679-93ae-46e2-99c1-fb46bfa277c5)
 
 Model Evaluation
+![Image 15-01-25 at 9 02 PM (1)](https://github.com/user-attachments/assets/d85c468b-535a-45fb-818a-864b43139033)
+
 
 ModelEvaluation
+
+![Image 15-01-25 at 9 02 PM](https://github.com/user-attachments/assets/02fbdfbd-cc6f-4361-b240-77c84f022d2e)
+
+![Image 15-01-25 at 9 00 PM (1)](https://github.com/user-attachments/assets/440b135a-11d3-4fb1-b71c-5b61adb439ca)
+
+
