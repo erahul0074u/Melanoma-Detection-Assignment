@@ -20,7 +20,6 @@ datasetdf
 
 datasetplot
 
-To overcome the issue of class imbalance, used a python package Augmentor (https://augmentor.readthedocs.io/en/master/) to add more samples across all classes so that none of the classes have very few samples.
 
 Sample image from Dataset
 
